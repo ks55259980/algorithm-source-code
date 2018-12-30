@@ -1,0 +1,1 @@
+// Assumes radius is an integerpublic int compareTo(Circle other){   return radius - other.radius;} // compareTo// Version 4.0

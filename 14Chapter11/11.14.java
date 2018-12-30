@@ -1,0 +1,1 @@
+public T dequeue(){   checkInitialization();   if (isEmpty())      throw new EmptyQueueException();   else   {      T front = queue[frontIndex];      queue[frontIndex] = null;      frontIndex = (frontIndex + 1) % queue.length;      return front;   } // end if} // end dequeue// Version 4.0

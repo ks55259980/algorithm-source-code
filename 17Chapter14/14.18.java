@@ -1,0 +1,1 @@
+public T getEntry(int givenPosition){   if ((givenPosition >= 1) && (givenPosition <= numberOfEntries))   {      assert !isEmpty();      return getNodeAt(givenPosition).getData();   }   else      throw new IndexOutOfBoundsException(                "Illegal position given to getEntry operation.");} // end getEntry// Version 4.0

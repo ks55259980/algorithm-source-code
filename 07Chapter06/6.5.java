@@ -1,0 +1,1 @@
+public T pop(){   T top = peek();  // Might throw EmptyStackException   assert (topNode != null);   topNode = topNode.getNextNode();   return top;} // end pop// Version 4.0

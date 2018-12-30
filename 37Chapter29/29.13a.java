@@ -1,0 +1,1 @@
+public Iterator<VertexInterface<T>> getNeighborIterator(){   return new NeighborIterator();} // end getNeighborIterator// Version 4.0

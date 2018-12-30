@@ -1,0 +1,1 @@
+/**   An interface for objects that have a radius.      @author Frank M. Carrano   @author Timothy M. Henry   @version 4.0*/public interface Circular{	public void setRadius(double newRadius);	public double getRadius();} // end Circular

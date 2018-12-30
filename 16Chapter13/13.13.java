@@ -1,0 +1,1 @@
+public boolean contains(T anEntry){   checkInitialization();   boolean found = false;   int index = 1;   while (!found && (index <= numberOfEntries))   {      if (anEntry.equals(list[index]))         found = true;      index++;   } // end while   return found;} // end contains// Version 4.0

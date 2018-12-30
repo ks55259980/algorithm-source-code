@@ -1,0 +1,1 @@
+public T peek(){   checkInitialization();   if (isEmpty())      throw new EmptyStackException();   else      return stack[topIndex];} // end peek// Version 4.0

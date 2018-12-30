@@ -1,0 +1,1 @@
+public T pop(){   checkInitialization();   if (isEmpty())      throw new EmptyStackException();   else   {      T top = stack[topIndex];      stack[topIndex] = null;      topIndex--;      return top;   } // end if} // end pop// Version 4.0

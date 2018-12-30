@@ -1,0 +1,1 @@
+private void initializeDataFields(){   firstNode = null;   lastNode = null;   numberOfEntries = 0;} // end initializeDataFields// Version 4.0

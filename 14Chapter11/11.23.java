@@ -1,0 +1,1 @@
+public T dequeue(){   T front = getFront();  // Might throw EmptyQueueException   assert !isEmpty();   queueNode.setData(null);   queueNode = queueNode.getNextNode();   return front;} // end dequeue// Version 4.0

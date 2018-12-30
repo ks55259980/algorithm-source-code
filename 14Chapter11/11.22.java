@@ -1,0 +1,1 @@
+public T getFront(){   if (isEmpty())      throw new EmptyQueueException();   else      return queueNode.getData();} // end getFront// Version 4.0

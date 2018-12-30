@@ -1,0 +1,1 @@
+public void add(T newEntry){   Node newNode = new Node(newEntry);   if (isEmpty())      firstNode = newNode;   else                              // Add to end of non-empty list   {      Node lastNode = getNodeAt(numberOfEntries);      lastNode.setNextNode(newNode); // Make last node reference new node   } // end if	      numberOfEntries++;} // end add// Version 4.0

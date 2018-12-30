@@ -1,0 +1,1 @@
+public static void displayPair(OrderedPair<?> pair){   System.out.println(pair);} // end displayPair// Version 4.0

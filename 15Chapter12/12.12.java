@@ -1,0 +1,1 @@
+// Version 4.0// Make a list of names as you think of themListInterface<Name> nameList = new AList<>();Name amy = new Name("Amy", "Smith");nameList.add(amy);nameList.add(new Name("Tina", "Drexel");nameList.add(new Name("Robert", "Jones");Name secondName = nameList.getEntry(2);

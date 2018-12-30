@@ -1,0 +1,1 @@
+public double getArea(){   double s = side.doubleValue();   return s * s;} // end getArea// Version 4.0

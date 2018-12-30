@@ -1,0 +1,1 @@
+public void enqueue(T newEntry){   checkInitialization();   ensureCapacity();   backIndex = (backIndex + 1) % queue.length;   queue[backIndex] = newEntry;} // end enqueue// Version 4.0

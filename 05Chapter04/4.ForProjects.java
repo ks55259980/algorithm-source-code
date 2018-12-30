@@ -1,0 +1,1 @@
+Date current = new Date();               // Get current timelong startTime = current.getTime();thisMethod();                            // Code to be timedcurrent = new Date();                    // Get current timelong stopTime = current.getTime();long elapsedTime = stopTime - startTime; // Milliseconds

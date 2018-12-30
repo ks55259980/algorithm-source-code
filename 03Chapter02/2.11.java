@@ -1,0 +1,1 @@
+	// Returns true if this bag is full, or false if not.	public boolean isArrayFull()	{		return numberOfEntries >= bag.length;	} // end isArrayFull

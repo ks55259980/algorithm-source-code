@@ -1,0 +1,1 @@
+/**   @author Frank M. Carrano   @version 4.0*/public interface Callable extends Nameable{   public void come(String petName);} // end Callable

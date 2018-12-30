@@ -1,0 +1,1 @@
+public Iterator<T> iterator(){   return new IteratorForLinkedList();} // end iterator// Version 4.0

@@ -1,0 +1,1 @@
+/**   A class that represents a circle.         @author Frank M. Carrano   @author Timothy M. Henry   @version 4.0*/public class Circle extends CircularBase{	public double getArea()	{		double radius = getRadius();      return Math.PI * radius * radius; 	} // end getArea} // end Circle

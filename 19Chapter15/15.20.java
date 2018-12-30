@@ -1,0 +1,1 @@
+// Version 4.0myList.resetTraversal();while (myList.hasNext())   System.out.println(myList.next());

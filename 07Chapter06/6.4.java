@@ -1,0 +1,1 @@
+public T peek(){   if (isEmpty())      throw new EmptyStackException();   else      return topNode.getData();} // end peek// Version 4.0

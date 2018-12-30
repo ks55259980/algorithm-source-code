@@ -1,0 +1,1 @@
+/** @param n  An integer > 0.    @return  The sum 1 + 2 + ... + n. */public static int sumOf(int n){   int sum;   if (n == 1)      sum = 1;                // Base case   else      sum = sumOf(n - 1) + n; // Recursive call       return sum;} // end sumOf// Version 4.0

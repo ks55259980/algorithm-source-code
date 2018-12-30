@@ -1,0 +1,1 @@
+public void add(int newPosition, T newEntry){   throw new UnsupportedOperationException("Illegal attempt to add " +                     "at a specified position within a sorted list.");} // end add// Version 4.0

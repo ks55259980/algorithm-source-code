@@ -1,0 +1,1 @@
+	/** Removes one occurrence of a given entry from this bag.       @param anEntry  The entry to be removed.       @return  True if the removal was successful, or false if not. */	public boolean remove(T anEntry) 	{		checkInitialization();      int index = getIndexOf(anEntry);      T result = removeEntry(index);				return anEntry.equals(result);	} // end remove

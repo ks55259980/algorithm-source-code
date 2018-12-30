@@ -1,0 +1,1 @@
+/**   @author Frank M. Carrano   @version 4.0*/public interface Capable{	public void hear();	public void respond();} // end Capable

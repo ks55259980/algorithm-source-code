@@ -1,0 +1,1 @@
+public boolean addVertex(T vertexLabel){   VertexInterface<T> addOutcome = vertices.add(vertexLabel, new Vertex<>(vertexLabel));   return addOutcome == null; // Was addition to dictionary successful?} // end addVertex// Version 4.0

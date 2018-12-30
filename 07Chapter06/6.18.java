@@ -1,0 +1,1 @@
+public T peek(){   checkInitialization();   if (isEmpty())      throw new EmptyStackException();   else      return stack.lastElement();} // end peek// Version 4.0
